@@ -346,7 +346,11 @@ value="<%= user.name %>"
 Deploy app to github
 C:\EjsProject\SecondEjsProject> git init
 C:\EjsProject\SecondEjsProject> git status
-
+C:\EjsProject\SecondEjsProject> git add .
+C:\EjsProject\SecondEjsProject> git commit -m "NodeEjsProject"
+C:\EjsProject\SecondEjsProject> git branch -M main
+C:\EjsProject\SecondEjsProject> git remote add origin https://github.com/Hussenat/nodeEjsProject.git
+C:\EjsProject\SecondEjsProject> git push -u origin main
 
 - Deploy app to Cyclic
 - let signin 
@@ -362,3 +366,4 @@ C:\EjsProject\SecondEjsProject> git status
 * add your mongodb atlas url onto key-Value Editor
 * add your PORT onto key-value Editor
 * delete every other environment variables that is set up by you 
+https://node-ejs-project.cyclic.app/
